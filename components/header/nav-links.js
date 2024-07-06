@@ -16,18 +16,16 @@ const NavLinks = ({ extraClassName }) => {
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
       <li className="dropdown">
-        <Link href="/index">
-          <>
-            <a>Home</a>
-            <button
+        <Link href="/">
+            Home
+            {/* <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
               <i className="fa fa-angle-down"></i>
-            </button>
-          </>
+            </button> */}
         </Link>
-        <ul className="dropdown-list">
+        {/* <ul className="dropdown-list">
           <li>
             <Link href="/index">
               <a>Home One</a>
@@ -63,24 +61,22 @@ const NavLinks = ({ extraClassName }) => {
               </li>
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="dropdown">
-        <Link href="/causes">
-          <>
-            <a>Causes</a>
-            <button
+        <Link href="/about">
+          About Us
+            {/* <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
               <i className="fa fa-angle-down"></i>
-            </button>
-          </>
+            </button> */}
         </Link>
-        <ul className="dropdown-list">
+        {/* <ul className="dropdown-list">
           <li>
             <Link href="/causes">
-              <a>Causes</a>
+              <a>About us</a>
             </Link>
           </li>
           <li>
@@ -88,9 +84,9 @@ const NavLinks = ({ extraClassName }) => {
               <a>Cause Details</a>
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/events">
           <>
             <a>Events</a>
@@ -174,17 +170,17 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li>
         <Link href="/contact">
           <a>Contact</a>
         </Link>
       </li>
-      <li className="search-btn search-toggler" onClick={handleSearchClick}>
+      {/* <li className="search-btn search-toggler" onClick={handleSearchClick}>
         <span>
           <i className="azino-icon-magnifying-glass"></i>
         </span>
-      </li>
+      </li> */}
     </ul>
   );
 };

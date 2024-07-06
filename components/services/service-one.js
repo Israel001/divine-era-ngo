@@ -7,31 +7,31 @@ import blockTitleHeart from "../../assets/images/shapes/heart-2-1.png";
 
 const serviceOneData = [
   {
-    icon: "azino-icon-water-bottle",
-    extraClassName: "background-secondary",
-    title: "Water",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    icon: "azino-icon-hamburger",
+    title: "Agriculture",
+    extraClassName: "background-primary",
+    text: "Promoting sustainable agriculture to empower communities and ensure food security for all",
     link: "#"
   },
   {
-    icon: "azino-icon-hamburger",
-    title: "Food",
-    extraClassName: "background-base",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    icon: "azino-icon-water-bottle",
+    extraClassName: "background-secondary",
+    title: "Water",
+    text: "Ensuring access to clean and safe water for all communites we serve",
     link: "#"
   },
   {
     icon: "azino-icon-reading-book",
     title: "Education",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    text: "Empowering individuals through quality education for a brighter and more informed future",
     link: "#",
-    extraClassName: "background-primary"
+    extraClassName: "background-base"
   },
   {
     icon: "azino-icon-stethoscope",
     title: "Medical",
     extraClassName: "background-special",
-    text: "Lorem ipsum is simply free text available in the market wesbites.",
+    text: "Providing essential medical care to improve health and well-being in our communities",
     link: "#"
   }
 ];
@@ -47,7 +47,7 @@ const ServiceOne = () => {
         <div className="block-title">
           <p>
             <img src={blockTitleHeart} width="15" alt="" />
-            Welcome to Azino Charity
+            Welcome to Divine Era Foundation International
           </p>
           <h3>
             We believe that we can save <br /> more lifes with you.

@@ -15,13 +15,11 @@ const DonationOptions = () => {
                   Donate Now
                 </p>
                 <h3>
-                  Give a helping hand <br /> for a needy people.
+                  Extend a helping hand <br /> to those in need.
                 </h3>
               </div>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and <br />{" "}
-                typesetting industry. Have you done google research <br /> which
-                works all the time.{" "}
+                We at DIVINE ERA FOUNDATION (DEF) seeks to be the most reliable, resourceful and trustworthy in caregiving ministry and also a voice to the voiceless as well as hope for the hopeless.
               </p>
               <div className="donate-options__call">
                 <i className="azino-icon-telephone"></i>
@@ -29,7 +27,7 @@ const DonationOptions = () => {
                   <p>
                     Have any question about donation? <br />{" "}
                     <span>Call us now:</span>{" "}
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+2347034992296">+2347034992296</a>
                   </p>
                 </div>
               </div>
@@ -63,8 +61,8 @@ const DonationOptions = () => {
             >
               <h3 className="text-center">Start donating now</h3>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, conse ctetur <br /> adipisicing elit
-                sed do eiusm od tempor ut labore.
+                Start donating now to transform lives, provide essential resources, and bring hope to those 
+                in need.
               </p>
               <label htmlFor="donate-name" className="sr-only"></label>
               <input type="text" id="donate-name" placeholder="Your Name" />
@@ -76,13 +74,13 @@ const DonationOptions = () => {
               />
               <ul id="donate-amount__predefined" className="list-unstyled">
                 <li>
-                  <a href="#">$10</a>
+                  <a href="#">₦1000</a>
                 </li>
                 <li>
-                  <a href="#">$20</a>
+                  <a href="#">₦2000</a>
                 </li>
                 <li>
-                  <a href="#">$50</a>
+                  <a href="#">₦5000</a>
                 </li>
               </ul>
               <button type="submit" className="thm-btn ">

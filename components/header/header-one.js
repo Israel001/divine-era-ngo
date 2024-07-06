@@ -6,7 +6,7 @@ import NavLinks from "./nav-links";
 import { MenuContext } from "../../context/menu-context";
 
 import flag1 from "../../assets/images/resources/flag-1-1.jpg";
-import logoDark from "../../assets/images/logo-dark.png";
+import logoDark from "../../assets/images/logo-dark.jpeg";
 
 const HeaderOne = () => {
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
@@ -66,14 +66,14 @@ const HeaderOne = () => {
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <i className="azino-icon-email"></i>
-                    <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+                    <a href="mailto:divineerafoundation19@gmail.com">divineerafoundation19@gmail.com</a>
                   </li>
                   <li>
                     <i className="azino-icon-telephone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+2347034992296">+2347034992296</a>
                   </li>
                 </ul>
-                <div className="main-header__language">
+                {/* <div className="main-header__language">
                   <div className="main-header__language-image">
                     <img src={flag1} alt="" />
                   </div>
@@ -88,7 +88,7 @@ const HeaderOne = () => {
                     className="fa fa-angle-down
                   "
                   ></i>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

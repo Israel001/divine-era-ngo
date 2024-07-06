@@ -59,15 +59,14 @@ const TestimonialsTwo = () => {
           <Row className="align-items-center">
             <Col md={12} lg={7}>
               <BlockTitle
-                title={`What they are talking \n about azino.`}
+                title={`What they are talking \n about Divine Era Foundation.`}
                 tagLine="Our Testimonials"
               />
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.
+                What they are talking about Divine Era Foundation: Empowering the needy, fostering self-reliance
+                , and spreading hope through education, agriculture, and essential care programs.
               </p>
             </Col>
           </Row>

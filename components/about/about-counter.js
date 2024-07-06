@@ -27,21 +27,19 @@ const AboutCounter = () => {
                 Help People Now
               </p>
               <h3>
-                Charity for the people <br />
-                you care about.
+                Caring for the people you cherish through dedicated charity.
               </h3>
             </div>
             <p className="about-counter__text">
-              Lorem Ipsum is simply dummy text of the printing and <br />{" "}
-              typesetting industry. Have you done google research which <br />{" "}
-              works all the time.{" "}
+              Caring for the people you cherish through dedicated charity, we empower communities, promote 
+              self-reliance, and provide essential support to the needy.
             </p>
             <ul className="list-unstyled ul-list-one">
-              <li>Nsectetur cing elit.</li>
-              <li>Suspe ndisse suscipit sagittis leo.</li>
-              <li>Entum estibulum dignissim posuere.</li>
+              <li>Empower Communities</li>
+              <li>Support the Needy</li>
+              <li>Promote Self-Reliance</li>
             </ul>
-            <div className="about-counter__count">
+            {/* <div className="about-counter__count">
               <h3 className="odometer">
                 <VisibilitySensor
                   onChange={onVisibilityChange}
@@ -54,7 +52,7 @@ const AboutCounter = () => {
               <p>
                 Donation campaigns <br /> are running
               </p>
-            </div>
+            </div> */}
           </Col>
           <Col lg={6}>
             <div className="about-counter__image clearfix">

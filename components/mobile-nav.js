@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Link from "next/link";
 import NavLinks from "./header/nav-links";
 
-import logoLight from "../assets/images/logo-light.png";
+import logoLight from "../assets/images/logo-dark.jpeg";
 import flag1 from "../assets/images/resources/flag-1-1.jpg";
 import { MenuContext } from "../context/menu-context";
 
@@ -43,15 +43,15 @@ const MobileNav = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
-            <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+            <a href="mailto:divineerafoundation19@gmail.com">divineerafoundation19@gmail.com</a>
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:+2347034992296">+2347034992296</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
-          <div className="mobile-nav__language">
+          {/* <div className="mobile-nav__language">
             <img src={flag1} alt="" />
             <label className="sr-only" htmlFor="language-select">
               select language
@@ -61,7 +61,7 @@ const MobileNav = () => {
               <option value="arabic">Arabic</option>
             </select>
             <i className="fa fa-caret-down select-icon"></i>
-          </div>
+          </div> */}
           <div className="mobile-nav__social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>

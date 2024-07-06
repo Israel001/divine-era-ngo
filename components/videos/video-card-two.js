@@ -37,9 +37,9 @@ const VideoCardTwo = () => {
             </Col>
             <Col lg={5}>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                We are aimed at ensuring that the lives of Nigerians are positively impacted upon
+                especially the widows, orphans, less-privilege and as many that are in need of one help
+                or the other.
               </p>
             </Col>
           </Row>

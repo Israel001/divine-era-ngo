@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
-import logoLight from "../assets/images/logo-light.png";
+import logoLight from "../assets/images/logo-dark.jpeg";
 import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
 import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
 
@@ -25,29 +25,29 @@ const Footer = () => {
                   </a>
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.
+                  Empowering Communities, Spreading Hope, and Transforming Lives Through Dedicated Care and Support
                 </p>
                 <ul className="list-unstyled footer-widget__contact">
                   <li>
                     <a href="#">
-                      <i className="azino-icon-telephone"></i>666 888 0000
+                      <i className="azino-icon-telephone"></i>+2347034992296
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="azino-icon-email"></i>needhelp@azino.com
+                      <i className="azino-icon-email"></i>divineerafoundation19@gmail.com
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="azino-icon-pin"></i>88 Broklyn Golden
-                      Street, USA
+                      <i className="azino-icon-pin"></i>1, Olanipekun Ave, By Mobil B/Stop, Oke-ira,
+                      Ogba, Lagos.
                     </a>
                   </li>
                 </ul>
               </div>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={6} md={6} sm={12}>
               <div className="footer-widget footer-widget__link mb-40">
                 <h3 className="footer-widget__title">Explore</h3>
                 <ul className="list-unstyled footer-widget__link-list">
@@ -99,7 +99,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            {/* <Col lg={3} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__blog">
                 <h3 className="footer-widget__title">Blog</h3>
                 <ul className="list-unstyled footer-widget__blog">
@@ -123,7 +123,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </Col>
+            </Col> */}
             <Col lg={3} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__newsletter">
                 <h3 className="footer-widget__title">Newletter</h3>
@@ -164,7 +164,7 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2020 by Layerdrops.com</p>
+          <p>© Copyright {new Date().getFullYear()} by Divine Era Foundation</p>
           <div className="footer-social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>

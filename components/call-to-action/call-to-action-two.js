@@ -21,7 +21,7 @@ const CallToActionTwo = () => {
                 Help Other People
               </p>
               <h3>
-                Our fingerprints on <br /> the lives we touch <br /> never fade.
+                The impact we leave on the lives we touch endures forever.
               </h3>
             </div>
           </Col>

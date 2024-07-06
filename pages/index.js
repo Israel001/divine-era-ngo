@@ -25,14 +25,14 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="Home One || Azino || Charity React Next Template">
+        <Layout pageTitle="Divine Era Foundation International">
           <HeaderOne />
           <StickyHeader />
           <MainSlider />
           <VideoCardTwo />
           <ServiceOne />
           <AboutCounter />
-          <CausesHome />
+          {/* <CausesHome /> */}
           <CallToActionTwo />
           <DonationOptions />
           <TeamHome />
@@ -40,9 +40,9 @@ const HomeOne = () => {
             <GalleryHome />
             <TestimonialsTwo />
           </GalleryTestimonials>
-          <BlogHome />
+          {/* <BlogHome /> */}
           <CallToAction />
-          <GoogleMap extraClass="home" />
+          {/* <GoogleMap extraClass="home" /> */}
           <BrandCarousel extraClass="client-carousel__has-top-shadow" />
           <Footer />
         </Layout>

@@ -14,22 +14,22 @@ const TeamData = [
     name: "Isabel Herrera",
     designation: "Student",
     social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-twitter"
+      // },
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
       },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-pinterest-p"
+      // },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-instagram"
+      // }
     ]
   },
   {
@@ -38,22 +38,22 @@ const TeamData = [
     name: "Nathan Wheeler",
     designation: "Student",
     social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-twitter"
+      // },
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
       },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-pinterest-p"
+      // },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-instagram"
+      // }
     ]
   },
   {
@@ -62,22 +62,22 @@ const TeamData = [
     name: "Warren Shaw",
     designation: "Student",
     social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-twitter"
+      // },
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
       },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-pinterest-p"
+      // },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-instagram"
+      // }
     ]
   },
   {
@@ -86,22 +86,22 @@ const TeamData = [
     name: "Hallie Wallace",
     designation: "Student",
     social: [
-      {
-        link: "#",
-        socialClass: "fab fa-twitter"
-      },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-twitter"
+      // },
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
       },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-instagram"
-      }
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-pinterest-p"
+      // },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-instagram"
+      // }
     ]
   }
 ];
