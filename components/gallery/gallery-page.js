@@ -4,7 +4,7 @@ import galleryImage1 from "../../assets/images/gallery/gallery-1-1.jpeg";
 import galleryImage2 from "../../assets/images/gallery/gallery-1-2.jpeg";
 import galleryImage3 from "../../assets/images/gallery/gallery-1-3.jpeg";
 import galleryImage4 from "../../assets/images/gallery/gallery-1-4.jpeg";
-import galleryImage5 from "../../assets/images/gallery/gallery-1-5.jpeg";
+// import galleryImage5 from "../../assets/images/gallery/gallery-1-5.jpeg";
 import galleryImage6 from "../../assets/images/gallery/gallery-1-6.jpeg";
 import galleryImage7 from "../../assets/images/gallery/gallery-1-7.jpeg";
 import galleryImage8 from "../../assets/images/gallery/gallery-1-8.jpeg";
@@ -35,7 +35,7 @@ const GalleryPage = () => {
           <GalleryCard image={galleryImage2} />
           <GalleryCard image={galleryImage3} />
           <GalleryCard image={galleryImage4} />
-          <GalleryCard image={galleryImage5} />
+          {/* <GalleryCard image={galleryImage5} /> */}
           <GalleryCard image={galleryImage6} />
           <GalleryCard image={galleryImage7} />
           <GalleryCard image={galleryImage8} />
