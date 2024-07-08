@@ -10,14 +10,14 @@ const BlogDetails = () => {
     <section className="blog-details pt-120 pb-40">
       <Container>
         <Row>
-          <Col md={12} lg={8}>
+          <Col md={12} lg={12}>
             <BlogContent />
-            <Comments />
-            <CommentForm />
+            {/* <Comments />
+            <CommentForm /> */}
           </Col>
-          <Col md={12} lg={4}>
+          {/* <Col md={12} lg={4}>
             <BlogSidebar />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </section>

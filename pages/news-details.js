@@ -12,7 +12,7 @@ const NewsDetails = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="News Details || Azino || Charity React Next Template">
+        <Layout pageTitle="News Details || DEF || Divine Era Foundation">
           <HeaderOne />
           <StickyHeader />
           <PageHeader title="News Details" crumbTitle="News" />

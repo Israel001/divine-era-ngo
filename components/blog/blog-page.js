@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import PostPaginations from "../post-paginations";
 import BlogCard from "./blog-card";
 
-import blogImage1 from "../../assets/images/blog/blog-1-1.jpg";
+import blogImage1 from "../../assets/images/blog/image.png";
 import blogImage2 from "../../assets/images/blog/blog-1-2.jpg";
 import blogImage3 from "../../assets/images/blog/blog-1-3.jpg";
 import blogImage4 from "../../assets/images/blog/blog-1-4.jpg";
@@ -14,58 +14,14 @@ import blogImage6 from "../../assets/images/blog/blog-1-6.jpg";
 const BLOG_DATA = [
   {
     image: blogImage1,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
+    title:
+      "Cleric seeks Govts, Churches, Firms' Attention to Indigents' Plight",
+    date: "7 Mar 2021",
+    text: "Apostle Ekwere Angel, African President of Divine Era Foundation, a non governmental....",
     link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
+    // commentCount: "2 Comments",
+    author: "Chinyere Abiaziem",
   },
-  {
-    image: blogImage2,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
-    link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
-  },
-  {
-    image: blogImage3,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
-    link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
-  },
-  {
-    image: blogImage4,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
-    link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
-  },
-  {
-    image: blogImage5,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
-    link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
-  },
-  {
-    image: blogImage6,
-    title: "Our donation is hope for poor childrens",
-    date: "20 May",
-    text: "Lorem ipsum is simply free text used by copytyping refreshing.",
-    link: "/news-details",
-    commentCount: "2 Comments",
-    author: "Admin"
-  }
 ];
 
 const BlogPage = () => {
@@ -91,7 +47,7 @@ const BlogPage = () => {
             )
           )}
         </div>
-        <PostPaginations />
+        {/* <PostPaginations /> */}
       </Container>
     </section>
   );

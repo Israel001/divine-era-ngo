@@ -4143,7 +4143,7 @@ h6 {
 --------------------------------------------------------------*/
 .blog-details .blog-card__image {
   border-radius: 15px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .blog-details h3 {

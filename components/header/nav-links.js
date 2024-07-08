@@ -17,8 +17,8 @@ const NavLinks = ({ extraClassName }) => {
     <ul className={`main-menu__list ${extraClassName}`}>
       <li className="dropdown">
         <Link href="/">
-            Home
-            {/* <button
+          Home
+          {/* <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
@@ -66,7 +66,7 @@ const NavLinks = ({ extraClassName }) => {
       <li className="dropdown">
         <Link href="/about">
           About Us
-            {/* <button
+          {/* <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
@@ -85,6 +85,9 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
         </ul> */}
+      </li>
+      <li className="dropdown">
+        <Link href="/news">News</Link>
       </li>
       {/* <li className="dropdown">
         <Link href="/events">
