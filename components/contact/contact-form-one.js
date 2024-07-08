@@ -26,11 +26,9 @@ const ContactFormOne = () => {
                 <a href="#" aria-label="facebook">
                   <i className="fab fa-facebook-square"></i>
                 </a>
-                <a href="#" aria-label="pinterest">
-                  <i className="fab fa-pinterest-p"></i>
-                </a>
-                <a href="#" aria-label="instagram">
-                  <i className="fab fa-instagram"></i>
+
+                <a href="#" aria-label="email">
+                  <i className="azino-icon-email"></i>
                 </a>
               </div>
             </div>

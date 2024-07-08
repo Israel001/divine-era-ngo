@@ -25,7 +25,7 @@ const HeaderOne = () => {
               <div className="logo-box">
                 <Link href="/">
                   <a aria-label="logo image">
-                    <img src={logoDark} width="101" alt="" />
+                    <img src={logoDark} width="230" alt="" />
                   </a>
                 </Link>
                 <span
@@ -44,17 +44,15 @@ const HeaderOne = () => {
               <div className="main-header__top">
                 <p>Welcome to non profit charity platform</p>
                 <div className="main-header__social">
-                  <a href="#" aria-label="twitter">
-                    <i className="fab fa-twitter"></i>
+                  <a href="#" aria-label="whatsapp">
+                    <i className="fab fa-whatsapp"></i>
                   </a>
                   <a href="#" aria-label="facebook">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                  <a href="#" aria-label="pinterest">
-                    <i className="fab fa-pinterest-p"></i>
-                  </a>
-                  <a href="#" aria-label="instagram">
-                    <i className="fab fa-instagram"></i>
+
+                  <a href="#" aria-label="email">
+                    <i className="azino-icon-email"></i>
                   </a>
                 </div>
               </div>
@@ -66,7 +64,9 @@ const HeaderOne = () => {
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <i className="azino-icon-email"></i>
-                    <a href="mailto:divineerafoundation19@gmail.com">divineerafoundation19@gmail.com</a>
+                    <a href="mailto:divineerafoundation19@gmail.com">
+                      divineerafoundation19@gmail.com
+                    </a>
                   </li>
                   <li>
                     <i className="azino-icon-telephone"></i>

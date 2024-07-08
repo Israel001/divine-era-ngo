@@ -2,32 +2,29 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import bgImage from "../../assets/images/shapes/testimonials-map-1-1.png";
 import heart from "../../assets/images/shapes/heart-2-1.png";
-import image1 from "../../assets/images/resources/testimonial-1-1.jpg";
-import image2 from "../../assets/images/resources/testimonial-1-2.jpg";
-import image3 from "../../assets/images/resources/testimonial-1-3.jpg";
+import image1 from "../../assets/images/resources/testimonial-2-1.jpg";
+import image2 from "../../assets/images/resources/testimonial-2-2.jpg";
+import image3 from "../../assets/images/resources/testimonial-2-3.jpg";
 
 const TESTIMONIALS_ONE_DATA = [
   {
     image: image1,
-    text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
+    text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
-    designation: "Customer"
+    designation: "Customer",
   },
   {
     image: image2,
-    text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
+    text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
-    designation: "Customer"
+    designation: "Customer",
   },
   {
     image: image3,
-    text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
+    text: "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
     name: "Alex Cooper",
-    designation: "Customer"
-  }
+    designation: "Customer",
+  },
 ];
 
 const TestimonialsOne = () => {

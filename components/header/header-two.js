@@ -40,7 +40,7 @@ const HeaderTwo = () => {
           <div className="logo-box">
             <Link href="/">
               <a aria-label="logo image">
-                <img src={logoDark} width="101" alt="" />
+                <img src={logoDark} width="230" alt="" />
               </a>
             </Link>
             <span
