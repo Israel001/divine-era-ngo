@@ -172,14 +172,14 @@ const Footer = () => {
           </ScrollLink>
           <p>© Copyright {new Date().getFullYear()} by Divine Era Foundation</p>
           <div className="footer-social">
-            <a href="#" aria-label="twitter">
-              <i className="fab fa-twitter"></i>
+            <a href="#" aria-label="email">
+              <i className="azino-icon-email"></i>
             </a>
             <a href="#" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="#" aria-label="email">
-              <i className="azino-icon-email"></i>
+            <a href="#" aria-label="whatsapp">
+              <i className="fab fa-whatsapp"></i>
             </a>
           </div>
         </div>

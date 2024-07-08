@@ -184,6 +184,11 @@ const NavLinks = ({ extraClassName }) => {
           <i className="azino-icon-magnifying-glass"></i>
         </span>
       </li> */}
+      <li>
+        <Link href="/gallery">
+          <a>Gallery</a>
+        </Link>
+      </li>
     </ul>
   );
 };

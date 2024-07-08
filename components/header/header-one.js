@@ -44,15 +44,14 @@ const HeaderOne = () => {
               <div className="main-header__top">
                 <p>Welcome to non profit charity platform</p>
                 <div className="main-header__social">
-                  <a href="#" aria-label="whatsapp">
-                    <i className="fab fa-whatsapp"></i>
+                  <a href="#" aria-label="email">
+                    <i className="azino-icon-email"></i>
                   </a>
                   <a href="#" aria-label="facebook">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-
-                  <a href="#" aria-label="email">
-                    <i className="azino-icon-email"></i>
+                  <a href="#" aria-label="whatsapp">
+                    <i className="fab fa-whatsapp"></i>
                   </a>
                 </div>
               </div>

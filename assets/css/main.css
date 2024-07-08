@@ -232,7 +232,15 @@
 }
 
 .gallery-card > img {
-  width: 100%;
+  width: 350px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+  .gallery-card > img {
+    width: 100%;
+  }
 }
 
 .gallery-card:hover .gallery-content {
@@ -249,6 +257,9 @@
   left: 0;
   right: 0;
   bottom: 0;
+  width: 350px;
+  height: 280px;
+  border-radius: 15px;
   background-color: RGBA(var(--thm-primary-rgb), 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1968,14 +1979,14 @@ h6 {
 }
 
 .ul-list-two li span {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 @media (min-width: 481px) {
   .ul-list-one li {
     font-size: 20px;
   }
-    .ul-list-two li {
+  .ul-list-two li {
     font-size: 20px;
   }
 }
