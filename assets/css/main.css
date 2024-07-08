@@ -1954,8 +1954,28 @@ h6 {
   color: var(--thm-black);
 }
 
+.ul-list-two {
+  margin-bottom: 0;
+}
+
+.ul-list-two li {
+  position: relative;
+  padding-left: 45px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  color: var(--thm-black);
+}
+
+.ul-list-two li span {
+    font-weight: 400;
+}
+
 @media (min-width: 481px) {
   .ul-list-one li {
+    font-size: 20px;
+  }
+    .ul-list-two li {
     font-size: 20px;
   }
 }
@@ -1966,6 +1986,18 @@ h6 {
   font-size: 26px;
   position: absolute;
   top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "azino-icon";
+}
+
+.ul-list-two li::before {
+  content: "\e907";
+  color: var(--thm-secondary);
+  font-size: 26px;
+  position: absolute;
+  top: 12%;
   left: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);

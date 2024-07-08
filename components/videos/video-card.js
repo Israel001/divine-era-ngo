@@ -35,12 +35,12 @@ const VideoCard = () => {
             <a className="thm-btn dynamic-radius">Start Donating</a>
           </Link>
 
-          <span
+          {/* <span
             onClick={() => setOpen(true)}
             className="video-popup video-card__btn"
           >
             <i className="fa fa-play"></i>
-          </span>
+          </span> */}
         </div>
       </Container>
     </section>

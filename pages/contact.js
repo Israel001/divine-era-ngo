@@ -14,13 +14,13 @@ const Contact = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="Contact Page || Azino || Charity React Next Template">
+        <Layout pageTitle="Contact Page || DEF || Divine Era Foundation">
           <HeaderOne />
           <StickyHeader />
           <PageHeader title="Contact Page" crumbTitle="Contact Us" />
           <ContactFormOne />
           <ContactCardCarousel />
-          <GoogleMap extraClass="contact" />
+          {/* <GoogleMap extraClass="contact" /> */}
           <Footer />
         </Layout>
       </SearchContextProvider>

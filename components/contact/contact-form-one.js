@@ -14,9 +14,10 @@ const ContactFormOne = () => {
                 tagLine="Contact With Us"
               />
               <p className="block-text mb-30 pr-10">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                We'd love to hear from you! Whether you have questions about our
+                programs, need assistance, or want to get involved, our team is
+                here to help. Reach out to us through any of the following
+                methods:
               </p>
               <div className="footer-social black-hover">
                 <a href="#" aria-label="twitter">

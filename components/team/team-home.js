@@ -128,9 +128,8 @@ const TeamHome = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                Our foundation thrives on the dedication of our volunteers and the generosity of our supporters.
+                With a sizeable number of volunteers across various states and nations, we continue to make a significant impact.
               </p>
             </Col>
           </Row>

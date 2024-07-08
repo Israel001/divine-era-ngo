@@ -9,21 +9,21 @@ const ContactCardCarousel = () => {
     breakpoints: {
       0: {
         spaceBetween: 0,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       480: {
         spaceBetween: 0,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       767: {
         spaceBetween: 30,
-        slidesPerView: 2
+        slidesPerView: 2,
       },
       1199: {
         spaceBetween: 30,
-        slidesPerView: 3
-      }
-    }
+        slidesPerView: 3,
+      },
+    },
   };
   return (
     <div className="contact-card-carousel ">
@@ -37,8 +37,9 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-family"></i>
               <h3>About</h3>
               <p>
-                Lorem ipsum is simply free text <br /> dolor sit amet,
-                consectetur <br /> adipiscing ullam blandit
+                (DEF) seeks to be the most reliable, resourceful and trustworthy
+                in caregiving ministry and also a voice to the voiceless as well
+                as hope for the hopeless.
               </p>
             </div>
           </SwiperSlide>
@@ -49,10 +50,7 @@ const ContactCardCarousel = () => {
             >
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
-              <p>
-                88 Broklyn Golden Street, <br /> New York. United States of{" "}
-                <br /> America.
-              </p>
+              <p>1, Olanipekun Ave, By Mobil B/Stop, Oke-ira, Ogba, Lagos.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -63,8 +61,10 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-contact"></i>
               <h3>Contact</h3>
               <p>
-                <a href="mailto:">needhelp@azino.com</a> <br />{" "}
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="mailto:divineerafoundation19@gmail.com">
+                  divineerafoundation19@gmail.com
+                </a>{" "}
+                <br /> <a href="tel:+2347034992296">+2347034992296</a>
               </p>
             </div>
           </SwiperSlide>
