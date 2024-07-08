@@ -25,23 +25,29 @@ const Footer = () => {
                   </a>
                 </Link>
                 <p>
-                  Empowering Communities, Spreading Hope, and Transforming Lives Through Dedicated Care and Support
+                  Empowering Communities, Spreading Hope, and Transforming Lives
+                  Through Dedicated Care and Support
                 </p>
                 <ul className="list-unstyled footer-widget__contact">
-                  <li>
+                  <li className="footer-widget_deets">
                     <a href="#">
-                      <i className="azino-icon-telephone"></i>+2347034992296
+                      <i className="azino-icon-telephone"></i>
+                      <span>+2347034992296</span>
                     </a>
                   </li>
-                  <li>
+                  <li className="footer-widget_deets">
                     <a href="#">
-                      <i className="azino-icon-email"></i>divineerafoundation19@gmail.com
+                      <i className="azino-icon-email"></i>
+                      <span>divineerafoundation19@gmail.com</span>
                     </a>
                   </li>
-                  <li>
+                  <li className="footer-widget_deets">
                     <a href="#">
-                      <i className="azino-icon-pin"></i>1, Olanipekun Ave, By Mobil B/Stop, Oke-ira,
-                      Ogba, Lagos.
+                      <i className="azino-icon-pin"></i>
+                      <span>
+                        1, Olanipekun Ave, By Mobil B/Stop, Oke-ira, Ogba,
+                        Lagos.
+                      </span>
                     </a>
                   </li>
                 </ul>
@@ -172,11 +178,8 @@ const Footer = () => {
             <a href="#" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="#" aria-label="pinterest">
-              <i className="fab fa-pinterest-p"></i>
-            </a>
-            <a href="#" aria-label="instagram">
-              <i className="fab fa-instagram"></i>
+            <a href="#" aria-label="email">
+              <i className="azino-icon-email"></i>
             </a>
           </div>
         </div>

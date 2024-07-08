@@ -16,11 +16,11 @@ const MainSliderTwo = () => {
     pagination: {
       el: "#main-slider-pagination",
       type: "bullets",
-      clickable: true
+      clickable: true,
     },
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
 
   return (

@@ -8,7 +8,7 @@ import AboutCounter from "../components/about/about-counter";
 import TeamHome from "../components/team/team-home";
 import VideoCard from "../components/videos/video-card";
 import TestimonialsOne from "../components/testimonials/testimonials-one";
-import BrandCarousel from "../components/brand-carousel";
+// import BrandCarousel from "../components/brand-carousel";
 import Footer from "../components/footer";
 import MenuContextProvider from "../context/menu-context";
 import SearchContextProvider from "../context/search-context";
@@ -22,7 +22,7 @@ const About = () => {
           <HeaderOne />
           <StickyHeader />
           <AboutOne />
-          <BrandCarousel extraClass="client-carousel__has-border-top" />
+          {/* <BrandCarousel extraClass="client-carousel__has-border-top" /> */}
           <AboutCounter />
           <TeamHome />
           <VideoCard />
