@@ -8,9 +8,9 @@ const TeamCard = ({ extraClass, image, name, designation, position }) => {
       </div>
 
       <div className="team-card__content">
-        <p>{name}</p>
+        <h3>{name}</h3>
         <p>{position}</p>
-        <p>{designation}</p>
+        {/* <p>{designation}</p> */}
       </div>
     </div>
   );

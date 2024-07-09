@@ -4,6 +4,7 @@ import TeamCard from "./team-card";
 import teamImage1 from "../../assets/images/team/team-1-1.jpeg";
 import teamImage2 from "../../assets/images/team/team-1-2.jpeg";
 import teamImage3 from "../../assets/images/team/team-1-3.jpeg";
+import teamImage4 from "../../assets/images/team/team-4.jpeg";
 import vicePresident from "../../assets/images/team/team-1-5.jpg";
 import exdirectoroffinance from "../../assets/images/team/team-1-6.jpg";
 import exDirecCopSev from "../../assets/images/team/team-1-7.jpg";
@@ -36,6 +37,18 @@ import dAgric from "../../assets/images/team/dagric.jpg";
 import ddAgric from "../../assets/images/team/ddagric.jpg";
 import chiefNursingOff from "../../assets/images/team/chiefnursingoff.jpg";
 import chiefConsult from "../../assets/images/team/chiefconsultant.jpg";
+import ric from "../../assets/images/team/ric.png";
+import ncir from "../../assets/images/team/ncrc.png";
+import nerc from "../../assets/images/team/nerc.png";
+import nwrc from "../../assets/images/team/nwrc.png";
+import swrc from "../../assets/images/team/swrc.png";
+import ssrc from "../../assets/images/team/ssrc.png";
+import serc from "../../assets/images/team/serc.png";
+import swrwl from "../../assets/images/team/swrwl.png";
+import ssrwl from "../../assets/images/team/ssrwl.png";
+import nrwl from "../../assets/images/team/nrwl.png";
+import dohs from "../../assets/images/team/dohs.png";
+import dfid from "../../assets/images/team/dfid.png";
 
 const TEAM_DATA = [
   {
@@ -58,6 +71,13 @@ const TEAM_DATA = [
     position: "Secretary General (DEF)",
     designation: "Divine Era Foundation",
     image: teamImage3,
+  },
+  {
+    extraClass: "content-bg-4",
+    name: "Ifedayo Oloruntoba Buoro",
+    position: "African Vice President",
+    designation: "Divine Era Foundation",
+    image: teamImage4,
   },
 ];
 
@@ -113,7 +133,7 @@ const OTHER_TEAMS = [
     name: "Samuel Ogunleye Olalekan",
   },
   {
-    image: dHealthSafe,
+    image: dohs,
     title: "Director for Health Safe Environment",
     name: "Anyanwu Mirabele Imabong",
   },
@@ -143,7 +163,7 @@ const OTHER_TEAMS = [
     name: "Nwankwo Patricia Uchenna",
   },
   {
-    image: dInfrDev,
+    image: dfid,
     title: "Director for Infrasctructural Development",
     name: "Kenneth A Eze",
   },
@@ -180,22 +200,95 @@ const OTHER_TEAMS = [
   {
     image: dMediaPub,
     title: "Director for Media and Publicity",
-    name: "Israel Obanijesu",
+    name: "Oluwasami Israel Obanijesu",
   },
   {
-    image: dBudgetsPlan,
-    title: "Director for BUdget Plans,",
-    name: "Ezenwanko Jude Ifeanychukwu",
+    image: chiefProtOff,
+    title: "Chief Protocol Officer",
+    name: "Ngozi Benedette Okafor",
   },
   {
-    image: dBudgetsPlan,
-    title: "Director for BUdget Plans,",
-    name: "Ezenwanko Jude Ifeanychukwu",
+    image: dPlanning,
+    title: "Director of Planning",
+    name: "Emmanuel Nse",
   },
   {
-    image: dBudgetsPlan,
-    title: "Director for BUdget Plans,",
-    name: "Ezenwanko Jude Ifeanychukwu",
+    image: dTrainingOrient,
+    title: "Director for Training and Orientation",
+    name: "Adebayo Clara Olabimpe",
+  },
+  {
+    image: dAgric,
+    title: "Director for Agriculture",
+    name: "Ogundayomi Kayide John",
+  },
+  {
+    image: ddAgric,
+    title: "Deputy Director of Agriculture",
+    name: "Dr Aliyu Umar",
+  },
+  {
+    image: chiefNursingOff,
+    title: "Chief Nursing Officer",
+    name: "Aderinkola Margert Bose",
+  },
+  {
+    image: chiefConsult,
+    title: "Chief Consultant",
+    name: "Anidi Patrick Taiye",
+  },
+];
+
+const REGIONAL_COORDINATORS = [
+  {
+    image: ric,
+    title: "Regional ICT Coordinator",
+    name: "Ogedengbe Joseph Friday",
+  },
+  {
+    image: ncir,
+    title: "North Central Regional Coordinator",
+    name: "Nuhu Andrew",
+  },
+  {
+    image: nerc,
+    title: "North East Regional Coordinator",
+    name: "Shalgus Roland",
+  },
+  {
+    image: nwrc,
+    title: "North West Regional Coordinator",
+    name: "Ahmed Yusuf Kangiwa",
+  },
+  {
+    image: swrc,
+    title: "South West Regional Coordinator",
+    name: "Ajao Mercy Olubunmi",
+  },
+  {
+    image: ssrc,
+    title: "South South Regional Coordinator",
+    name: "Enobong Paul Udo",
+  },
+  {
+    image: serc,
+    title: "South East Regional Coordinator",
+    name: "Anedo Christopher Igboanugo",
+  },
+  {
+    image: swrwl,
+    title: "South West Regional Women Leader",
+    name: "Dr Adetula Omoyemi Hellen",
+  },
+  {
+    image: ssrwl,
+    title: "South-South Regional Women Leader",
+    name: "Lovina Emen Ben",
+  },
+  {
+    image: nrwl,
+    title: "Northern Regional Women Leader",
+    name: "Hanna Emman Idoko",
   },
 ];
 
@@ -203,7 +296,16 @@ const TeamPage = () => {
   return (
     <section className="team-page pt-120 pb-120">
       <Container>
-        <div className="team-3-col">
+        <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "700",
+            marginBottom: "3rem",
+          }}
+        >
+          Executives
+        </h1>
+        <div className="team-4-col">
           {TEAM_DATA.map(
             ({ extraClass, name, designation, image, position }, index) => (
               <TeamCard
@@ -217,8 +319,37 @@ const TeamPage = () => {
             )
           )}
         </div>
+        <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "700",
+            marginBottom: "3rem",
+            marginTop: "3rem",
+          }}
+        >
+          Members
+        </h1>
         <div className="other-teams">
           {OTHER_TEAMS.map((team, index) => (
+            <div className="other_team-card" key={index}>
+              <img src={team.image} alt={team.name} />
+              <h3>{team.name}</h3>
+              <p>{team.title}</p>
+            </div>
+          ))}
+        </div>
+        <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "700",
+            marginBottom: "3rem",
+            marginTop: "3rem",
+          }}
+        >
+          Regional Coordinators
+        </h1>
+        <div className="other-teams">
+          {REGIONAL_COORDINATORS.map((team, index) => (
             <div className="other_team-card" key={index}>
               <img src={team.image} alt={team.name} />
               <h3>{team.name}</h3>
