@@ -792,7 +792,8 @@
 .team-3-col {
   display: flex;
   margin: auto;
-  gap: 30px;
+  row-gap: 60px;
+  /* gap: 30px; */
   justify-content: space-between;
   align-items: center;
   width: 100%;

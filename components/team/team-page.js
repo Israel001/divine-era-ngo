@@ -5,6 +5,9 @@ import teamImage1 from "../../assets/images/team/team-1-1.jpeg";
 import teamImage2 from "../../assets/images/team/team-1-2.jpeg";
 import teamImage3 from "../../assets/images/team/team-1-3.jpeg";
 import teamImage4 from "../../assets/images/team/team-4.jpeg";
+import teamImage5 from "../../assets/images/team/team-image-5-resize.jpeg";
+import teamImage6 from "../../assets/images/team/team-image-6-resize.jpeg";
+import teamImage7 from "../../assets/images/team/team-image-7-resize.jpeg";
 import vicePresident from "../../assets/images/team/team-1-5.jpg";
 import exdirectoroffinance from "../../assets/images/team/team-1-6.jpg";
 import exDirecCopSev from "../../assets/images/team/team-1-7.jpg";
@@ -52,32 +55,46 @@ import dfid from "../../assets/images/team/dfid.png";
 
 const TEAM_DATA = [
   {
-    extraClass: "content-bg-2",
-    name: "Caroline Ndifon Lifu",
-    position: "National Director of Programmes (DEF)",
-    designation: "DIvine Era Foundation",
-    image: teamImage2,
-  },
-  {
     extraClass: "content-bg-1",
     name: "Ekwere Ralph Angel",
     position: "African President",
-    designation: "DIvine Era Foundation",
+    designation: "Divine Era Foundation",
     image: teamImage1,
   },
   {
+    extraClass: "content-bg-2",
+    name: "Ifedayo Oloruntoba Buoro",
+    position: "African Vice President",
+    designation: "Divine Era Foundation",
+    image: teamImage6,
+  },
+  {
     extraClass: "content-bg-3",
+    name: "Caroline Ndifon Lifu",
+    position: "National Director of Programmes (DEF)",
+    designation: "Divine Era Foundation",
+    image: teamImage2,
+  },
+  {
+    extraClass: "content-bg-4",
     name: "Princewill Awah",
     position: "Secretary General (DEF)",
     designation: "Divine Era Foundation",
     image: teamImage3,
   },
   {
-    extraClass: "content-bg-4",
-    name: "Ifedayo Oloruntoba Buoro",
-    position: "African Vice President",
+    extraClass: "content-bg-5",
+    name: "Mary Foluke Oloruntoba",
+    position: "National Director of Women's Affairs",
     designation: "Divine Era Foundation",
-    image: teamImage4,
+    image: teamImage5,
+  },
+  {
+    extraClass: "content-bg-6",
+    name: "Patrick Anidi",
+    position: "Chief Consultant",
+    designation: "Divine Era Foundation",
+    image: teamImage7,
   },
 ];
 
@@ -94,8 +111,8 @@ const OTHER_TEAMS = [
   },
   {
     image: exDirecCopSev,
-    title: "Ajiloko Francis",
-    name: "Ogedengbe Joseph Friday",
+    title: "Executive Director Corporate Services",
+    name: "Ajiloko Francis",
   },
   {
     image: directorHumanResources,
@@ -110,7 +127,7 @@ const OTHER_TEAMS = [
   {
     image: ddWomenAff,
     title: "Direcor of Women Affairs",
-    name: "Oloruntoba Mary Foluke",
+    name: "Helen Ekpe",
   },
   {
     image: genSecWomAff,
@@ -232,11 +249,6 @@ const OTHER_TEAMS = [
     title: "Chief Nursing Officer",
     name: "Aderinkola Margert Bose",
   },
-  {
-    image: chiefConsult,
-    title: "Chief Consultant",
-    name: "Anidi Patrick Taiye",
-  },
 ];
 
 const REGIONAL_COORDINATORS = [
@@ -305,7 +317,7 @@ const TeamPage = () => {
         >
           Executives
         </h1>
-        <div className="team-4-col">
+        <div className="team-3-col">
           {TEAM_DATA.map(
             ({ extraClass, name, designation, image, position }, index) => (
               <TeamCard

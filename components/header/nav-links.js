@@ -94,6 +94,11 @@ const NavLinks = ({ extraClassName }) => {
         </ul>
       </li>
       <li>
+        <Link href="/our-team">
+          <a>Our Team</a>
+        </Link>
+      </li>
+      <li>
         <Link href="/gallery">
           <a>Gallery</a>
         </Link>
@@ -196,11 +201,6 @@ const NavLinks = ({ extraClassName }) => {
           <i className="azino-icon-magnifying-glass"></i>
         </span>
       </li> */}
-      <li>
-        <Link href="/our-team">
-          <a>Our Team</a>
-        </Link>
-      </li>
     </ul>
   );
 };
