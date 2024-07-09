@@ -65,26 +65,38 @@ const NavLinks = ({ extraClassName }) => {
       </li>
       <li className="dropdown">
         <Link href="/about">
-          About Us
-          {/* <button
+          <>
+            <a>About Us</a>
+            <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
               <i className="fa fa-angle-down"></i>
-            </button> */}
+            </button>
+          </>
         </Link>
-        {/* <ul className="dropdown-list">
+        <ul className="dropdown-list">
           <li>
-            <Link href="/causes">
-              <a>About us</a>
+            <Link href="/about#our-mission">
+              <a>Our Mission</a>
             </Link>
           </li>
           <li>
-            <Link href="/cause-details">
-              <a>Cause Details</a>
+            <Link href="/about#our-objectives">
+              <a>Our Objectives</a>
             </Link>
           </li>
-        </ul> */}
+          <li>
+            <Link href="/about#our-goals">
+              <a>Our Goals</a>
+            </Link>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <Link href="/gallery">
+          <a>Gallery</a>
+        </Link>
       </li>
       <li className="dropdown">
         <Link href="/news">News</Link>
@@ -184,11 +196,6 @@ const NavLinks = ({ extraClassName }) => {
           <i className="azino-icon-magnifying-glass"></i>
         </span>
       </li> */}
-      <li>
-        <Link href="/gallery">
-          <a>Gallery</a>
-        </Link>
-      </li>
     </ul>
   );
 };

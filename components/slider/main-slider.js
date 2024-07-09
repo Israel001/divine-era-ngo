@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 
-import banner1 from "../../assets/images/main-slider/slider-1-1.jpg";
-import banner2 from "../../assets/images/main-slider/slider-1-2.jpg";
-import banner3 from "../../assets/images/main-slider/slider-2-1.jpg";
+import banner1 from "../../assets/images/gallery/gallery-1-1.jpeg";
+import banner2 from "../../assets/images/main-slider/banner-2.jpeg";
+import banner3 from "../../assets/images/main-slider/banner-3.jpeg";
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const MainSlider = () => {
@@ -16,11 +16,11 @@ const MainSlider = () => {
     pagination: {
       el: "#main-slider-pagination",
       type: "bullets",
-      clickable: true
+      clickable: true,
     },
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
   return (
     <section className="main-slider">

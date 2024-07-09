@@ -3,31 +3,31 @@ import { Container, Row, Col } from "react-bootstrap";
 import SwiperCore, { Autoplay, Thumbs } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BlockTitle from "../block-title";
-import testimonialImage1 from "../../assets/images/resources/testimonial-2-1.jpg";
-import testimonialImage2 from "../../assets/images/resources/testimonial-2-2.jpg";
-import testimonialImage3 from "../../assets/images/resources/testimonial-2-3.jpg";
+import testimonialImage1 from "../../assets/images/resources/testimonial01.png";
+import testimonialImage2 from "../../assets/images/resources/testimonial02.png";
+import testimonialImage3 from "../../assets/images/resources/testimonial03.png";
 
 SwiperCore.use([Autoplay, Thumbs]);
 
 const TESTIMONIALS_DATA = [
   {
     image: testimonialImage1,
-    name: "Christine Rose",
+    name: "Ogedengbe Joseph",
     designation: "Customer",
     text:
       "This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch."
   },
   {
     image: testimonialImage2,
-    name: "Christine Rose",
-    designation: "Customer",
+    name: "Grace Dio",
+    designation: "",
     text:
       "This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch."
   },
   {
     image: testimonialImage3,
-    name: "Christine Rose",
-    designation: "Customer",
+    name: "Bridget Omotoso",
+    designation: "",
     text:
       "This is due to their excellent service, competitive pricing and \n customer support. It’s throughly refresing to get such a \n personal touch."
   }

@@ -25,6 +25,13 @@ import galleryImage22 from "../../assets/images/gallery/gallery-1-2-4.jpeg";
 import galleryImage23 from "../../assets/images/gallery/gallery-1-2-5.jpeg";
 import galleryImage24 from "../../assets/images/gallery/gallery-1-2-6.jpeg";
 import galleryImage25 from "../../assets/images/gallery/gallery-1-2-7.jpeg";
+import galleryImage26 from "../../assets/images/gallery/gallery01.jpeg";
+import galleryImage27 from "../../assets/images/gallery/gallery02.jpeg";
+import galleryImage28 from "../../assets/images/gallery/gallery03.jpeg";
+import galleryImage29 from "../../assets/images/gallery/gallery04.jpeg";
+import galleryImage30 from "../../assets/images/gallery/gallery05.jpeg";
+import galleryImage31 from "../../assets/images/gallery/gallery06.jpeg";
+import galleryImage32 from "../../assets/images/gallery/gallery07.jpeg";
 
 const GalleryPage = () => {
   return (
@@ -35,8 +42,6 @@ const GalleryPage = () => {
           <GalleryCard image={galleryImage2} />
           <GalleryCard image={galleryImage3} />
           <GalleryCard image={galleryImage4} />
-          {/* <GalleryCard image={galleryImage5} /> */}
-          <GalleryCard image={galleryImage6} />
           <GalleryCard image={galleryImage7} />
           <GalleryCard image={galleryImage8} />
           <GalleryCard image={galleryImage9} />
@@ -56,6 +61,13 @@ const GalleryPage = () => {
           <GalleryCard image={galleryImage23} />
           <GalleryCard image={galleryImage24} />
           <GalleryCard image={galleryImage25} />
+          <GalleryCard image={galleryImage26} />
+          <GalleryCard image={galleryImage27} />
+          <GalleryCard image={galleryImage28} />
+          <GalleryCard image={galleryImage29} />
+          <GalleryCard image={galleryImage30} />
+          <GalleryCard image={galleryImage31} />
+          <GalleryCard image={galleryImage32} />
         </div>
       </div>
     </section>

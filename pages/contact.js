@@ -14,10 +14,10 @@ const Contact = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="Contact Page || DEF || Divine Era Foundation">
+        <Layout pageTitle="Contact Us || DEF || Divine Era Foundation">
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title="Contact Page" crumbTitle="Contact Us" />
+          <PageHeader title="Contact Us" crumbTitle="Contact Us" />
           <ContactFormOne />
           <ContactCardCarousel />
           {/* <GoogleMap extraClass="contact" /> */}

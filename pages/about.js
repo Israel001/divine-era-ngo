@@ -17,8 +17,8 @@ const About = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="About Page || DEF || Divine Era Foundation About Us">
-          <PageHeader title="About Page" crumbTitle="About" />
+        <Layout pageTitle="About Us || DEF || Divine Era Foundation About Us">
+          <PageHeader title="About Us" crumbTitle="About" />
           <HeaderOne />
           <StickyHeader />
           <AboutOne />

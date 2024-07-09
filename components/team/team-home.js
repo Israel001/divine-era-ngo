@@ -2,17 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heartImage from "../../assets/images/shapes/heart-2-1.png";
 import bgImage from "../../assets/images/team/team-map-1-1.png";
-import teamImage1 from "../../assets/images/team/team-2-1.jpg";
-import teamImage2 from "../../assets/images/team/team-2-2.jpg";
-import teamImage3 from "../../assets/images/team/team-2-3.jpg";
-import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+import teamImage1 from "../../assets/images/team/team-1-resize.jpeg";
+import teamImage2 from "../../assets/images/team/team-2-resize.jpeg";
+import teamImage3 from "../../assets/images/team/team-3-resize.jpeg";
+import teamImage4 from "../../assets/images/team/team-4.jpeg";
 
 const TeamData = [
   {
     image: teamImage1,
     extraClassName: "content-bg-1",
-    name: "Isabel Herrera",
-    designation: "Student",
+    name: "Ekwere Ralph Angel",
+    designation: "African President",
     social: [
       // {
       //   link: "#",
@@ -20,7 +20,7 @@ const TeamData = [
       // },
       {
         link: "#",
-        socialClass: "fab fa-facebook-square"
+        socialClass: "fab fa-facebook-square",
       },
       // {
       //   link: "#",
@@ -30,13 +30,13 @@ const TeamData = [
       //   link: "#",
       //   socialClass: "fab fa-instagram"
       // }
-    ]
+    ],
   },
   {
     image: teamImage2,
     extraClassName: "content-bg-2",
-    name: "Nathan Wheeler",
-    designation: "Student",
+    name: "Princewill Awah",
+    designation: "Secretary General",
     social: [
       // {
       //   link: "#",
@@ -44,7 +44,7 @@ const TeamData = [
       // },
       {
         link: "#",
-        socialClass: "fab fa-facebook-square"
+        socialClass: "fab fa-facebook-square",
       },
       // {
       //   link: "#",
@@ -54,13 +54,13 @@ const TeamData = [
       //   link: "#",
       //   socialClass: "fab fa-instagram"
       // }
-    ]
+    ],
   },
   {
     image: teamImage3,
     extraClassName: "content-bg-3",
-    name: "Warren Shaw",
-    designation: "Student",
+    name: "Caroline Ndifon Lifu",
+    designation: "National Director of Programmes",
     social: [
       // {
       //   link: "#",
@@ -68,7 +68,7 @@ const TeamData = [
       // },
       {
         link: "#",
-        socialClass: "fab fa-facebook-square"
+        socialClass: "fab fa-facebook-square",
       },
       // {
       //   link: "#",
@@ -78,13 +78,13 @@ const TeamData = [
       //   link: "#",
       //   socialClass: "fab fa-instagram"
       // }
-    ]
+    ],
   },
   {
     image: teamImage4,
     extraClassName: "content-bg-4",
-    name: "Hallie Wallace",
-    designation: "Student",
+    name: "Ifedayo Oloruntoba Buoro",
+    designation: "African Vice President",
     social: [
       // {
       //   link: "#",
@@ -92,7 +92,7 @@ const TeamData = [
       // },
       {
         link: "#",
-        socialClass: "fab fa-facebook-square"
+        socialClass: "fab fa-facebook-square",
       },
       // {
       //   link: "#",
@@ -102,8 +102,8 @@ const TeamData = [
       //   link: "#",
       //   socialClass: "fab fa-instagram"
       // }
-    ]
-  }
+    ],
+  },
 ];
 
 const TeamHome = () => {
@@ -128,8 +128,10 @@ const TeamHome = () => {
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Our foundation thrives on the dedication of our volunteers and the generosity of our supporters.
-                With a sizeable number of volunteers across various states and nations, we continue to make a significant impact.
+                Our foundation thrives on the dedication of our volunteers and
+                the generosity of our supporters. With a sizeable number of
+                volunteers across various states and nations, we continue to
+                make a significant impact.
               </p>
             </Col>
           </Row>

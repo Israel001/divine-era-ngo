@@ -12,10 +12,10 @@ const Gallery = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="Gallery Page || Azino || Charity React Next Template">
+        <Layout pageTitle="Gallery || DEF || Divine Era Foundation">
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title="Gallery Page" crumbTitle="Gallery" />
+          <PageHeader title="Gallery" crumbTitle="Gallery" />
           <GalleryPage />
           <Footer />
         </Layout>

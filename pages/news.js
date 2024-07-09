@@ -12,10 +12,10 @@ const News = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout pageTitle="News Page || DEF || Divine Era Foundation">
+        <Layout pageTitle="News || DEF || Divine Era Foundation">
           <HeaderOne />
           <StickyHeader />
-          <PageHeader title="News Page" crumbTitle="News" />
+          <PageHeader title="News" crumbTitle="News" />
           <BlogPage />
           <Footer />
         </Layout>
