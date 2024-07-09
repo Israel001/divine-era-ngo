@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -786,24 +790,28 @@
 }
 
 .team-3-col {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  grid-gap: 30px;
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 706px) {
   .team-3-col {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 480px) {
   .team-3-col {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* -ms-grid-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
   }
 }
 
@@ -830,7 +838,7 @@
 }
 
 .team-card {
-  position: relative;
+  /* position: relative; */
 }
 
 .team-card:hover .team-card__social {
@@ -844,15 +852,18 @@
   overflow: hidden;
 }
 
+.team-card__image > img {
+  width: 300px;
+}
+
 @media (max-width: 575px) {
   .team-card__image {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
-}
-
-.team-card__image > img {
-  width: 100%;
+  .team-card__image > img {
+    width: 100%;
+  }
 }
 
 .team-card__social {
@@ -898,6 +909,53 @@
 
 .team-card__social a + a {
   margin-left: 10px;
+}
+
+.other-teams {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.other_team-card {
+  text-align: center;
+}
+
+.other_team-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.other_team-card h3 {
+  margin-top: 10px;
+  font-size: 1.25em;
+}
+
+.other_team-card p {
+  font-size: 1em;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .other-teams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .other-teams {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .other-teams {
+    grid-template-columns: 1fr;
+  }
 }
 
 .team-card__social a:hover {
@@ -949,9 +1007,11 @@
   position: relative;
   z-index: 10;
   border-radius: 15px;
+  color: #fff;
 }
 
-.team-card__content h3 {
+.team-card__content h6,
+h5 {
   margin: 0;
   color: #fff;
   font-size: 18px;
