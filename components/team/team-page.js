@@ -125,11 +125,6 @@ const OTHER_TEAMS = [
     name: "Oseni Ahmed Oluwasina",
   },
   {
-    image: ddWomenAff,
-    title: "Direcor of Women Affairs",
-    name: "Helen Ekpe",
-  },
-  {
     image: genSecWomAff,
     title: "General Secretary for Women Affairs",
     name: "Grace Dio",
