@@ -33,6 +33,30 @@ const TeamData = [
     ],
   },
   {
+    image: teamImage4,
+    extraClassName: "content-bg-4",
+    name: "Ifedayo Oloruntoba Buoro",
+    designation: "African Vice President",
+    social: [
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-twitter"
+      // },
+      {
+        link: "#",
+        socialClass: "fab fa-facebook-square",
+      },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-pinterest-p"
+      // },
+      // {
+      //   link: "#",
+      //   socialClass: "fab fa-instagram"
+      // }
+    ],
+  },
+  {
     image: teamImage2,
     extraClassName: "content-bg-2",
     name: "Princewill Awah",
@@ -61,30 +85,6 @@ const TeamData = [
     extraClassName: "content-bg-3",
     name: "Caroline Ndifon Lifu",
     designation: "National Director of Programmes",
-    social: [
-      // {
-      //   link: "#",
-      //   socialClass: "fab fa-twitter"
-      // },
-      {
-        link: "#",
-        socialClass: "fab fa-facebook-square",
-      },
-      // {
-      //   link: "#",
-      //   socialClass: "fab fa-pinterest-p"
-      // },
-      // {
-      //   link: "#",
-      //   socialClass: "fab fa-instagram"
-      // }
-    ],
-  },
-  {
-    image: teamImage4,
-    extraClassName: "content-bg-4",
-    name: "Ifedayo Oloruntoba Buoro",
-    designation: "African Vice President",
     social: [
       // {
       //   link: "#",
